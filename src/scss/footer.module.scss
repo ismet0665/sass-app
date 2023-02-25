@@ -1,0 +1,15 @@
+@import "variables";
+
+.footer {
+  padding: 2rem;
+  background-color: $navyBlue;
+  // position: fixed; bu kısmı içerik oldugu için yorum aldık.
+  // bottom: 0;
+  // left: 0;
+  // width: 100%;   //position olunca width 100% den düşüyor kendimiz 100% vermemiz lazım.
+
+  p {
+    font-weight: 500;
+    color: white;
+  }
+}
